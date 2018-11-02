@@ -38,6 +38,9 @@ function tag_c ($i, $data)
   $time = ctime($data[0]);
   $plr = intval($data[2]);
   $pcon = -1;
+  
+  if ($plr <= 0)
+    return;
 
   if (!isset($player[$plr]))
     add_player($time, $plr);
@@ -400,7 +403,7 @@ function tag_i ($i, $data)
   if ($i < 4 || $match->ended || !$match->started) return;
 
   $plr = check_player($data[2]);
-  if ($plr < 0) return;
+  if ($plr <= 0) return;
 
   // Remove OLTeams prefix from pickups
   if (strlen($data[3]) > 7 && substr($data[3], 0, 7) == "OLTeams") {

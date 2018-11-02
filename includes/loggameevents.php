@@ -41,7 +41,7 @@ function tag_g ($i, $data)
     case "namechange":
       if ($match->ended)
         break;
-      if ($i > 4 && $data[4] && $plr >= 0) {
+      if ($i > 4 && $data[4] && $plr > 0) {
       	$name = preg_replace("(\x1B...)", "", $data[4]); // Strip color codes
       	set_name($plr, substr($name, 0, 30));
 
