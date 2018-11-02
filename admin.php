@@ -23,6 +23,13 @@
 require("includes/statsdb.inc.php");
 require("includes/logsql.php");
 
+if($disableAdmin){
+	$host  = $_SERVER['HTTP_HOST'];
+	$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
+	header("Location: http://$host$uri");
+	exit;
+}
+
 $magic = get_magic_quotes_gpc();
 $magicrt = get_magic_quotes_runtime();
 $adminver = new AdminVer;

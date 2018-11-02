@@ -12,6 +12,8 @@ $InitPass = "initpass"; // Required for initializing the database tables.
 
 $showStats = false;     // Show SQL query and page stats in the page footer.
 
+$disableAdmin = false; // Enables or disables the admin.php page
+
 // Optionally you can include the following line modified with the path to a file
 // outside of your web path with the above information in it:
 // require("/path_to_file/statsdb.inc.php");
