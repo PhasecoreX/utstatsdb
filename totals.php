@@ -680,6 +680,7 @@ for ($i = 0; $i < $numweapons; $i++) {
       <td class="smheading" align="center" width="55">{$LANG_DEATHS}</td>
     </tr>
 EOF;
+      $wasStats = true;
     }
 
     echo <<< EOF
