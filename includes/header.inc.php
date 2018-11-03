@@ -5,7 +5,7 @@ $twidthm = $twidth + 160;
 
 $stylefile = "style{$layout}.css";
 $logofile = "utstatsdblogo.png";
-if (!file_exists("resource/{$sidebarlogo}")) {
+if (!isset($sidebarlogo) || !file_exists("resource/{$sidebarlogo}")) {
   $sidebarlogo = "utlogo.png";
 }
 
