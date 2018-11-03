@@ -690,6 +690,6 @@ INSERT INTO %dbpre%weapons (wp_type,wp_desc) VALUES('DamTypeClassicSniperEX','Sn
 INSERT INTO %dbpre%weapons (wp_type,wp_desc,wp_secondary) VALUES('DamTypeClassicHeadshotEX','Sniper Rifle EX',1);
 INSERT INTO %dbpre%weapons (wp_type,wp_desc) VALUES('ONSPainterEX','Target Painter EX');
 #--------------------------------------------------------------------------------------------------
-INSERT INTO %dbpre%weapons (wp_type,wp_desc) VALUES('JBDamageTypeLlamaLaser', 'JailBreak Llama Laser');
+INSERT INTO %dbpre%weapons (wp_type,wp_desc) VALUES('JBDamageTypeLlamaLaser', 'Jailbreak Llama Laser');
 #
 #INSERT INTO %dbpre%weapons (wp_type,wp_desc) VALUES('','');

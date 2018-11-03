@@ -240,5 +240,14 @@ INSERT INTO %dbpre%items (it_type,it_desc) VALUES('UTWeap_RipperLite','Ripper');
 INSERT INTO %dbpre%items (it_type,it_desc) VALUES('UTArmorPickup_Helmet','Helmet');
 INSERT INTO %dbpre%items (it_type,it_desc) VALUES('UTBerserk','Berzerk');
 INSERT INTO %dbpre%items (it_type,it_desc) VALUES('UTInvisibility','Invisibility');
+#--------------------------------------------------------------------------------------------------
+INSERT INTO %dbpre%items (it_type,it_desc) VALUES('UdamagePackEX','Damage Amplifier EX');
+INSERT INTO %dbpre%items (it_type,it_desc) VALUES('IonPainterPickupEX','Ion Painter EX');
+INSERT INTO %dbpre%items (it_type,it_desc) VALUES('PainterPickupEX','Ion Painter EX');
+INSERT INTO %dbpre%items (it_type,it_desc) VALUES('ONSPainterPickupEX','Ion Painter EX');
+INSERT INTO %dbpre%items (it_type,it_desc) VALUES('SuperHealthPackEX','Super Health Pack EX');
+INSERT INTO %dbpre%items (it_type,it_desc) VALUES('RedeemerPickupEX','Redeemer EX');
+#--------------------------------------------------------------------------------------------------
+INSERT INTO %dbpre%items (it_type,it_desc) VALUES('JBArlonMedbox','Jailbreak Arlon Health Pack');
 #
 #INSERT INTO %dbpre%items (it_type,it_desc) VALUES('','');
